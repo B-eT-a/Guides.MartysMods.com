@@ -2,9 +2,9 @@ Local Build using Windows.
 Windows 11 22H2 22621.2070
 
 # Notes
-Jekyll - https://jekyllrb.com
-Just The Docs - https://github.com/just-the-docs/just-the-docs
-Markdown Extension - Kramdown https://kramdown.gettalong.org/quickref.html#extensions
+    * Jekyll - https://jekyllrb.com
+    * Just The Docs - https://github.com/just-the-docs/just-the-docs
+    * Markdown Extension - Kramdown https://kramdown.gettalong.org/quickref.html#extensions
 
 # Installing Jekyll and Builder via RubyInstaller - Windows
 1. Install Dependancies - `https://rubyinstaller.org/downloads/` Using 3.2.2-1 x64 + Devkit.
