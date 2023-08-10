@@ -24,6 +24,6 @@ Contributers will also be noted with credits towards the site!
 
 ----------------
 
-Thank you! - Jordan Brady - Aug.08.2023
+Thank you! - Jordan Brady - Aug.08.2023<br>
 Credits will be given to those who contribute!<br>
 We want to give as much credit as possible to those who have made this site a reality!
