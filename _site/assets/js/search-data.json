@@ -79,16 +79,16 @@
     "doc": "Home",
     "title": "Guides.MartysMods.com",
     "content": "The definitive guide site for anything ReShade related. This site is here to help and guide new and returning users into the functions of ReShade! . If at any point and time, you need information about a specific word, you can visit our Glossary! . If you want to contribute to this site, please visit our Contributions Page! . Edit Date: Aug.10.2023 - Jordan Brady . ",
-    "url": "/docs/#guidesmartysmodscom",
+    "url": "/#guidesmartysmodscom",
     
-    "relUrl": "/docs/#guidesmartysmodscom"
+    "relUrl": "/#guidesmartysmodscom"
   },"12": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
-    "url": "/docs/",
+    "url": "/",
     
-    "relUrl": "/docs/"
+    "relUrl": "/"
   },"13": {
     "doc": "Installing ReShade",
     "title": "Installing ReShade",
