@@ -68,10 +68,9 @@ Skip if this step is already there
 ----------------
 
 #### Step 5.
-Cut or move the ReShade files and singular folder, into your FiveM `plugins` folder.
+Cut or move the ReShade files and singular folder from your Grand Theft Auto V game folder, into your FiveM `plugins` folder.
 
 These files and singular folder are: 
-
 * `dxgi.dll` - ReShade Binary File
 * `reshade.ini` - ReShade Settings File
 * `ReShade-Shaders` - ReShade Shaders & Textures Folder
