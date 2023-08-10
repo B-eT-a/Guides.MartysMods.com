@@ -37,9 +37,9 @@ Installing ReShade to the launcher will give you the wrong binary, and won't all
 Once ReShade is installed to GTAV, navigate to your GTAV folder.<br>
 You should see:
 
-* `dxgi.dll`
-* `reshade.ini`
-* `ReShade-Shaders`
+* `dxgi.dll` - ReShade Binary File
+* `reshade.ini` - ReShade Settings File
+* `ReShade-Shaders` - ReShade Shaders & Textures Folder
 
 {: .note}
 These files belong to ReShade, and are **needed** for Step 5.<br>
@@ -68,7 +68,16 @@ Skip if this step is already there
 ----------------
 
 #### Step 5.
-Cut and paste the two files and singular folder, that were listed above in Step 2., into your newly created `plugins` folder.
+Cut or move the ReShade files and singular folder, into your FiveM `plugins` folder.
+
+These files and singular folder are: 
+
+* `dxgi.dll` - ReShade Binary File
+* `reshade.ini` - ReShade Settings File
+* `ReShade-Shaders` - ReShade Shaders & Textures Folder
+
+{: .warning}
+Do not copy and paste these files over, as it will cause issues.
 
 ----------------
 
