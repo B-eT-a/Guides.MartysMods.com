@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 # Guides.MartysMods.com
-The definitive guide site for anything ReShade related.
+Your extensive guide site for all things ReShade.
 <div>
 <img src="./mmlogo.png" width="300" height="300"/>
 </div>
