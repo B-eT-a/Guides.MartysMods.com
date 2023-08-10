@@ -6,7 +6,7 @@ nav_order: 1
 # Guides.MartysMods.com
 The definitive guide site for anything ReShade related.
 <div>
-<img src="/assets/images/mmlogo.png" width="300" height="300"/>
+<img src="./mmlogo.png" width="300" height="300"/>
 </div>
 This site is here to help and guide new and returning users into the functions of ReShade!
 
