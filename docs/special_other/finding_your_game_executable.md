@@ -33,7 +33,7 @@ While your game is still open, Alt+Tab over to Task Manager.<br>
 In the Processes list, you should be able to see your game.<br>
 
 1. Right click your game in Task Manager's Processes tab
-2. Click `Go to details...`
+2. Click `Go to details`
 3. Right click the selected executable application that is now in your Details tab.
 4. Click `Open file location`
 
