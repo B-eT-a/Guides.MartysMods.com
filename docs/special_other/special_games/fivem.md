@@ -22,6 +22,13 @@ grand_parent: Special & Others
 ----------------
 
 ## Installing ReShade to FiveM:
+While FiveM is a modification platform for Grand Theft Auto V, it requires it's own special proceedures in order to inject ReShade into FiveM itself.
+
+Unfortunately, this is the way that the developers of FiveM have set up their client, and there is nothing that we can realistically can do about it.
+
+In order to install ReShade properly to FiveM, you can proceed with the following step based guide!
+
+----------------
 
 #### Step 1.
 Start by installing ReShade to GTAV.<br>
