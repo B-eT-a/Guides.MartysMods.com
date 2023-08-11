@@ -12,6 +12,8 @@ With that in mind, each install of ReShade can be vastly different, and the ReSh
 
 If you are struggling on finding a game's executable, this is a definitive guide showing you how to find the installs of the game the easiest.
 
+----------------
+
 ## Global
 
 ### Step 1.
@@ -22,6 +24,8 @@ You can open Task Manager in various ways.<br>
     1. Right click the Taskbar in Windows, and then click Task Manager
     2. Control + Alt + Delete all pressed at the same time, and then click Task Manager
     3. Control + Shift + Escape all pressed at the same time.
+
+----------------
 
 ### Step 2.
 While your game is still open, Alt+Tab over to Task Manager.<br>
