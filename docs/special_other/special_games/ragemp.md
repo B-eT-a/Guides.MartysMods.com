@@ -36,7 +36,7 @@ The default location of RageMP will be `C:\RAGEMP`
  * In the ReShade Installer, click the browse function in the bottom right hand corner.
  * File Explorer will open, now paste the location of the game into the address bar of the File Explorer Window that has oppened.
  * Click `ragemp_v.exe` and then click "Open" in the bottom right hand corner of the File Explorer Window.
- * Continue with the ReShade installation. as normal. If you need help with the ReShade installation, refer to our guide on installing ReShade.
+ * Continue with the ReShade installation as normal.
 
  {: .note}
  If you need help with the ReShade installation, refer to our guide on installing ReShade.<br>
