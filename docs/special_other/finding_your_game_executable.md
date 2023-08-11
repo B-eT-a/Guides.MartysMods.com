@@ -15,7 +15,7 @@ If you are struggling on finding a game's executable, this is a definitive guide
 
 ----------------
 
-## Global
+## Global (PREFERED)
 
 ### Step 1.
 Open your game and Window's Task Manager.
