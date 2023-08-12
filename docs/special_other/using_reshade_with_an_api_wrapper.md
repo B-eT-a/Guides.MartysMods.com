@@ -17,17 +17,17 @@ This can provide all sorts of new things for users, such as allowing their ReSha
 ----------------
 
 ## Installing DXVK for use with ReShade
-#### Step 1
+### Step 1
 Grab the latest release of DXVK from [https://github.com/doitsujin/dxvk/releases](https://github.com/doitsujin/dxvk/releases)
 
 ----------------
 
-#### Step 2
+### Step 2
 Navigate to your game folder - For this instance, I am using ULTRAKILL here as an example.
 
 ----------------
 
-#### Step 3
+### Step 3
 Use [PCGamingWiki](https://pcgamingwiki.com/) for reference of what rendering API and architecture that your game is:
 
 <div class="figure">
@@ -41,7 +41,7 @@ PCGamingWiki showing the game's original bit architecture
 
 ----------------
    
-#### Step 4 
+### Step 4 
 * Open the DXVK archive dxvk-2.2.tar.gz (You will need a archive opener like [7zip](https://www.7-zip.org/)!)
 
 * Navigate to the into the dxvk-2.2.tar file, then into the dxvk-2.2 folder. <br>
@@ -56,7 +56,7 @@ PCGamingWiki showing the game's original bit architecture
 
 ----------------
 
-#### Step 5 
+### Step 5 
 Navigate into the architecture folder that relates to your game, and you will see several files - each of these files relates to the rendering api that you found on PCGamingWiki.
 
 {: .highlight-title}
@@ -70,7 +70,7 @@ Navigate into the architecture folder that relates to your game, and you will se
 
 ----------------
 
-#### Step 6 
+### Step 6 
 Drag the file that you need into the directory that your game is located in - the file needs to be in the same location as the executable!
 
 <div class="figure">
@@ -80,7 +80,7 @@ Drag the file that you need into the directory that your game is located in - th
 
 ----------------
 
-#### Step 7
+### Step 7
 Reinstall ReShade using the Vulkan API for your game, and test! 
 
 {: .warning}

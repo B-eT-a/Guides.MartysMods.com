@@ -17,7 +17,7 @@ Make sure you correctly set-up ReShade and followed the previous steps on the ot
 
 ----------------
 
-### Depth Buffer Basics
+## Depth Buffer Basics
 First of all, what you need to do before anything is to know what each part and color of the Depth Buffer means, this will explain what each means, what to notice and what to do with each case.
 
 {: .warning}
@@ -47,17 +47,17 @@ Now, click the “Edit global preprocessor definitions” on the “Home” tab 
 
 ----------------
 
-#### RESHADE_DEPTH_INPUT_IS_REVERSED
+### RESHADE_DEPTH_INPUT_IS_REVERSED
 Used when you can see the normals, but can’t see the depth image itself (The first result image should represent this perfectly), usually starts at 1 so set it to 0 to fix it, it can also be the other way around.
 
 ----------------
 
-#### RESHADE_DEPTH_INPUT_IS _UPSIDE_DOWN
+### RESHADE_DEPTH_INPUT_IS _UPSIDE_DOWN
 As the name says, when the image shown by the DisplayDepth shader is upside down, setting it to 1 should fix the issue.
 
 ----------------
 
-#### RESHADE_DEPTH_INPUT_IS_LOGARITHMIC
+### RESHADE_DEPTH_INPUT_IS_LOGARITHMIC
 Used when the depth buffer has lots of waves or “stripes”. Very FEW games actually do use this, so you rarely will have to switch or change that.
 
 ----------------
@@ -65,17 +65,17 @@ Used when the depth buffer has lots of waves or “stripes”. Very FEW games ac
 ### Depth Buffer Advanced Arguments
 Those options here will rarely need to be changed, but for old games or emulators, you might have to fiddle around with them. Here is a description of them.
 
-#### RESHADE_DEPTH_INPUT_X_SCALE | RESHADE_DEPTH_INPUT_Y_SCALE
+### RESHADE_DEPTH_INPUT_X_SCALE | RESHADE_DEPTH_INPUT_Y_SCALE
 Changes the depth buffer size (multiplier, so 1 = original size, 2 = double and so on) on the horizontal (X) and vertical (Y) axis.
 
 ----------------
 
-#### RESHADE_DEPTH_LINEARIZATION_FAR_PLANE
+### RESHADE_DEPTH_LINEARIZATION_FAR_PLANE
 How far is the “infinite” defined in the depth buffer. Values can either be really low or really high, so you will have to experiment to see which fits best on your case.
 
 ----------------
 
-#### RESHADE_DEPTH_MULTIPLIER
+### RESHADE_DEPTH_MULTIPLIER
 Multiplies the far plane for easy visualization of really low or really high far plane values.
 
 ----------------

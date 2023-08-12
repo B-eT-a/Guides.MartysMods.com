@@ -13,14 +13,19 @@ Pull requests to :main: will be AUTOMATICALLY denied.
 
 ----------------
 
-#### If you would like to reach out about more information/suggestions, you can ask here:
+### If you would like to reach out about more information/suggestions, you can ask here:
 
 * [GitHub Issues](https://github.com/Jorbann/Guides.MartysMods.com/issues)
 * Email - jorban@martysmods.com
 * Discord DMs - @jorban
 
-I am more than happy to answer any questions that you may have!
+I am more than happy to answer any questions that you may have!<br>
 Contributers will also be noted with credits towards the site!
+
+We're ultimately wanting this site to become the ReShade communities top reference for guides and tutorials.<br>
+However, this means that part of the community will have to contribute in order to make it the best that it possibly can be!<br>
+We know creating guides takes time and effort, and we do not want this to feel like a job.<br>
+So keep in mind that no one is required to create anything for the ReShade community, but if you can part with some of your time we'd love to have you helping out!
 
 ----------------
 
