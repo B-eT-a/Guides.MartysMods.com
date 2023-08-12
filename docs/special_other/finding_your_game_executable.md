@@ -40,3 +40,44 @@ In the Processes list, you should be able to see your game.<br>
 If Step 2. is done correctly, you should see your game's application highlighted in File Explorer.
 
 In this area, you can note the location of the application you are looking for, as well as the specific game executable itself.
+
+----------------
+
+## Steam
+
+### Step 1.
+Open Steam and right click your game in the Steam "Library" tab, and then click "Properties".<br>
+I will be using ULTRAKILL for this representation.
+<div class="figure">
+<img src="./images/finding_game_executable/right_click_game_steam.png"  class="autosize"/>
+</div>
+
+----------------
+
+### Step 2.
+With the new "Properties" window open, click the "Installed Files" tab on the left hand side of the window.
+<div class="figure">
+<img src="./images/finding_game_executable/click_installed_files_tab_steam.png"  class="autosize"/>
+</div>
+If you are on the right page, you will see "Installed Files" in bold text on towards the middle of the screen.
+<div class="figure">
+<img src="./images/finding_game_executable/installed_files_tab_steam.png"  class="autosize"/>
+</div>
+
+----------------
+
+### Step 3.
+In the "Installed Files" section of the "Properties" window, click the "Browse..." button on the right side of the window.
+<div class="figure">
+<img src="./images/finding_game_executable/click_browse_steam.png"  class="autosize"/>
+</div>
+
+Once done, a Window with your game's executable and files will be present. The file with the `.exe` extention will be the executable.
+<div class="figure">
+<img src="./images/finding_game_executable/game_file_explorer_steam.png"  class="autosize"/>
+</div>
+
+{: .note}
+This solution will NOT show you what your game's actual exectuable is.<br>
+This will only show you the location of where your game is installed, or where it's launching from in Steam!<br>
+Some games can have more than one executable, and it's up to you to determine which is the proper one!
