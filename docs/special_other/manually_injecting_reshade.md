@@ -8,7 +8,7 @@ parent: Special & Others
 # Manually Injecting ReShade
 
 ----------------
-### What is Manually Injecting?
+## What is Manually Injecting?
 Not all games allow for ReShade to be injected automatically at run-time, which can be an issue for some users. With that in mind, Crosire has built a tool in order to easily inject any form of DLL into games. This is most prominent in UWP (Microsoft Store) games, as most do not allow automatic injection.
 
 {: .warning}
@@ -16,9 +16,9 @@ Since Crosire's Inject tool is an external injector, it is more prone to trigger
 
 ----------------
 
-### Injecting Into Your Game
+## Injecting Into Your Game
 
-#### Step 1
+### Step 1
 Finding the proper architecture type of your game:
 
 1. Visit the [PCGamingWiki](https://www.pcgamingwiki.com/wiki/Home).
@@ -31,7 +31,7 @@ Finding the proper architecture type of your game:
 
 ----------------
 
-#### Step 2
+### Step 2
 Then, download the proper injector for the architecture of your game:
 
 * [Inject64.exe](https://reshade.me/downloads/inject64.exe)
@@ -39,12 +39,12 @@ Then, download the proper injector for the architecture of your game:
 
 ----------------
 
-#### Step 3
+### Step 3
 Download the latest ReShade Installer archive on the [ReShade website](https://www.reshade.me).
 
 ----------------
 
-#### Step 4
+### Step 4
 Extract the proper DLL for the architecture of your game using 7Zip:
 
 1. [7Zip Site.](https://www.7-zip.org/download.html)
@@ -61,17 +61,17 @@ Extract the proper DLL for the architecture of your game using 7Zip:
 
 ----------------
 
-#### Step 5
+### Step 5
 Place the injector you have downloaded and the DLL you have extracted from the ReShade setup archive into your game folder.
 
 ----------------
 
-#### Step 6
+### Step 6
 Start the game that you want to inject ReShade into normally.
 
 ----------------
 
-#### Step 7
+### Step 7
 Open Task manager and check the proccess name used by the game:
 
 1. Open Task Manager
@@ -81,7 +81,7 @@ Open Task manager and check the proccess name used by the game:
 
 ----------------
 
-#### Step 8
+### Step 8
 Close your game, and navigate to the folder where your game exists. Inside the folder, you want to open a command prompt:
 
 1. Right Click the inside of the directory and click "Open in Terminal" OR type `CMD` in the address bar.

@@ -6,7 +6,7 @@ parent: Special Games
 grand_parent: Special & Others
 ---
 
-## Installing ReShade to RageMP
+# Installing ReShade to RageMP
 While FiveM is a multiplayer modification platform for Grand Theft Auto V, it requires the ReShade injection binary to be in RageMP's folder to run.
 
 Unfortunately, this is the way that the developers of RageMP have set up their client, and there is nothing that we can realistically can do about it.
@@ -17,7 +17,6 @@ In order to install ReShade properly to RageMP, you can proceed with the followi
 
 ### Step 1.
 Open up the install location of RageMP with File Explorer.
-{: .note}
 The default location of RageMP will be `C:\RAGEMP`
   <div>
   <img src="./images/ragemp/ragemp_install_location.png" />

@@ -162,95 +162,109 @@
   },"23": {
     "doc": "Manually Injecting ReShade",
     "title": "Manually Injecting ReShade",
-    "content": ". What is Manually Injecting? . Not all games allow for ReShade to be injected automatically at run-time, which can be an issue for some users. With that in mind, Crosire has built a tool in order to easily inject any form of DLL into games. This is most prominent in UWP (Microsoft Store) games, as most do not allow automatic injection. Since Crosire’s Inject tool is an external injector, it is more prone to triggering anti-cheat systems - USE AT YOUR OWN RISK. Injecting Into Your Game . Step 1 . Finding the proper architecture type of your game: . | Visit the PCGamingWiki. | Search for your game in the search bar. | Navigate towards the API tab of the page for your game (generally towards the end of the page.) | Utilize that information to download the proper injector version in Step 2. | . Step 2 . Then, download the proper injector for the architecture of your game: . | Inject64.exe | Inject32.exe | . Step 3 . Download the latest ReShade Installer archive on the ReShade website. Step 4 . Extract the proper DLL for the architecture of your game using 7Zip: . | 7Zip Site. | Download the .MSI version of 7Zip. | Right Click the ReShade setup executable. | Hover over 7Zip. | Click Open Archive. | Pull out the proper DLL to any location that you want. | . Remember! . This DLL has to be the same archtecture as the injection tool that you have downloaded previously. Step 5 . Place the injector you have downloaded and the DLL you have extracted from the ReShade setup archive into your game folder. Step 6 . Start the game that you want to inject ReShade into normally. Step 7 . Open Task manager and check the proccess name used by the game: . | Open Task Manager | Right Click your application in the default proccesses tab. | Click “Go to Details.” | The executable highlighted will be the process name of your game. | . Step 8 . Close your game, and navigate to the folder where your game exists. Inside the folder, you want to open a command prompt: . | Right Click the inside of the directory and click “Open in Terminal” OR type CMD in the address bar. | Type inject[x32/x64].exe \"name of the process here.exe\". | Press enter. | Start your game. | . If done properly, you will now have ReShade injected into your game once it starts. ",
+    "content": ". ",
     "url": "/docs/special_other/manually_injecting_reshade.html",
     
     "relUrl": "/docs/special_other/manually_injecting_reshade.html"
   },"24": {
+    "doc": "Manually Injecting ReShade",
+    "title": "What is Manually Injecting?",
+    "content": "Not all games allow for ReShade to be injected automatically at run-time, which can be an issue for some users. With that in mind, Crosire has built a tool in order to easily inject any form of DLL into games. This is most prominent in UWP (Microsoft Store) games, as most do not allow automatic injection. Since Crosire’s Inject tool is an external injector, it is more prone to triggering anti-cheat systems - USE AT YOUR OWN RISK. ",
+    "url": "/docs/special_other/manually_injecting_reshade.html#what-is-manually-injecting",
+    
+    "relUrl": "/docs/special_other/manually_injecting_reshade.html#what-is-manually-injecting"
+  },"25": {
+    "doc": "Manually Injecting ReShade",
+    "title": "Injecting Into Your Game",
+    "content": "Step 1 . Finding the proper architecture type of your game: . | Visit the PCGamingWiki. | Search for your game in the search bar. | Navigate towards the API tab of the page for your game (generally towards the end of the page.) | Utilize that information to download the proper injector version in Step 2. | . Step 2 . Then, download the proper injector for the architecture of your game: . | Inject64.exe | Inject32.exe | . Step 3 . Download the latest ReShade Installer archive on the ReShade website. Step 4 . Extract the proper DLL for the architecture of your game using 7Zip: . | 7Zip Site. | Download the .MSI version of 7Zip. | Right Click the ReShade setup executable. | Hover over 7Zip. | Click Open Archive. | Pull out the proper DLL to any location that you want. | . Remember! . This DLL has to be the same archtecture as the injection tool that you have downloaded previously. Step 5 . Place the injector you have downloaded and the DLL you have extracted from the ReShade setup archive into your game folder. Step 6 . Start the game that you want to inject ReShade into normally. Step 7 . Open Task manager and check the proccess name used by the game: . | Open Task Manager | Right Click your application in the default proccesses tab. | Click “Go to Details.” | The executable highlighted will be the process name of your game. | . Step 8 . Close your game, and navigate to the folder where your game exists. Inside the folder, you want to open a command prompt: . | Right Click the inside of the directory and click “Open in Terminal” OR type CMD in the address bar. | Type inject[x32/x64].exe \"name of the process here.exe\". | Press enter. | Start your game. | . If done properly, you will now have ReShade injected into your game once it starts. ",
+    "url": "/docs/special_other/manually_injecting_reshade.html#injecting-into-your-game",
+    
+    "relUrl": "/docs/special_other/manually_injecting_reshade.html#injecting-into-your-game"
+  },"26": {
     "doc": "RageMP",
     "title": "Installing ReShade to RageMP",
     "content": "While FiveM is a multiplayer modification platform for Grand Theft Auto V, it requires the ReShade injection binary to be in RageMP’s folder to run. Unfortunately, this is the way that the developers of RageMP have set up their client, and there is nothing that we can realistically can do about it. In order to install ReShade properly to RageMP, you can proceed with the following step based guide that is presented below: . Step 1. Open up the install location of RageMP with File Explorer. The default location of RageMP will be C:\\RAGEMP . | Once open, copy the location of the game from the address bar in File Explorer. | . | Download the latest copy of ReShade from the ReShade Website. | . Step 2. | Open the ReShade Installer. | In the ReShade Installer, click the browse function in the bottom right hand corner. | File Explorer will open, now paste the location of the game into the address bar of the File Explorer Window that has oppened. | Click ragemp_v.exe and then click “Open” in the bottom right hand corner of the File Explorer Window. | Continue with the ReShade installation as normal. | . If you need help with the ReShade installation, refer to our guide on installing ReShade. Remember that the ReShade Installation guide is meant to be generic and to work for all games. ### Step 3. Launch your game and verify that ReShade has been installed properly. ",
     "url": "/docs/special_other/special_games/ragemp.html#installing-reshade-to-ragemp",
     
     "relUrl": "/docs/special_other/special_games/ragemp.html#installing-reshade-to-ragemp"
-  },"25": {
+  },"27": {
     "doc": "RageMP",
     "title": "RageMP",
     "content": " ",
     "url": "/docs/special_other/special_games/ragemp.html",
     
     "relUrl": "/docs/special_other/special_games/ragemp.html"
-  },"26": {
+  },"28": {
     "doc": "Understanding ReShade's Depth Buffer",
     "title": "Understanding ReShade’s Depth Buffer",
     "content": ". ",
     "url": "/docs/reshade/understanding_reshade_depth_buffer.html#understanding-reshades-depth-buffer",
     
     "relUrl": "/docs/reshade/understanding_reshade_depth_buffer.html#understanding-reshades-depth-buffer"
-  },"27": {
+  },"29": {
     "doc": "Understanding ReShade's Depth Buffer",
     "title": "What is ReShade’s Depth Buffer?",
     "content": "The depth buffer in a game tells what in the game has “depth”, as in, what is actually 3D, and what is just a plane. It is the basis for effects such as Ambient Occlusion to detect what occludes and what doesn’t, and for Depth of Field to detect what is close to the camera and what isn’t. Without that, those effects don’t know what is close and far, and can’t work. In the next few steps, you will learn how to identify a depth buffer, how to see if it works, common issues which makes the detection not possible, and so on. Make sure you correctly set-up ReShade and followed the previous steps on the other pages! This guide will be made on the basis that you followed all of the instructions there and got ReShade set-up and running correctly. Depth Buffer Basics . First of all, what you need to do before anything is to know what each part and color of the Depth Buffer means, this will explain what each means, what to notice and what to do with each case. BEFORE DOING ANYTHING THOUGH, GO TO YOUR GAME GRAPHICS SETTINGS, AND DISABLE THE FOLLOWING: . | MSAA ANTIALIASING - (FXAA or TXAA is fine though, since it doesn’t erase the depth-buffer information by doing multiple samples) | SSAA ANTIALIASING | . Enough with the remarks, lets get to it. First, go to an area in the game that isn’t a menu, or has geometry, and enable the DisplayDepth.fx shader in your ReShade Home tab, you should see something simular to the image below: . If it looks like the image above, the shader has loaded and is working properly, but please notice that we’re not yet done, since there are still some details wrong about what has been shown above. If your shader looks like the images below, it has no data, and you should go back a few steps and read what you should disable, carefully. This is what the depth buffer shader looks like with no data. This is what the shader looks like when it has no data, and is reversed. Now, click the “Edit global preprocessor definitions” on the “Home” tab of the ReShade menu and change the ones according to what fits your case: . RESHADE_DEPTH_INPUT_IS_REVERSED . Used when you can see the normals, but can’t see the depth image itself (The first result image should represent this perfectly), usually starts at 1 so set it to 0 to fix it, it can also be the other way around. RESHADE_DEPTH_INPUT_IS _UPSIDE_DOWN . As the name says, when the image shown by the DisplayDepth shader is upside down, setting it to 1 should fix the issue. RESHADE_DEPTH_INPUT_IS_LOGARITHMIC . Used when the depth buffer has lots of waves or “stripes”. Very FEW games actually do use this, so you rarely will have to switch or change that. Depth Buffer Advanced Arguments . Those options here will rarely need to be changed, but for old games or emulators, you might have to fiddle around with them. Here is a description of them. RESHADE_DEPTH_INPUT_X_SCALE | RESHADE_DEPTH_INPUT_Y_SCALE . Changes the depth buffer size (multiplier, so 1 = original size, 2 = double and so on) on the horizontal (X) and vertical (Y) axis. RESHADE_DEPTH_LINEARIZATION_FAR_PLANE . How far is the “infinite” defined in the depth buffer. Values can either be really low or really high, so you will have to experiment to see which fits best on your case. RESHADE_DEPTH_MULTIPLIER . Multiplies the far plane for easy visualization of really low or really high far plane values. Depth buffers shouldn’t be more broken than this, but in case they are, please contact crosire with info so it can be looked at and updated at future versions / revisions of ReShade, or via an addon. ",
     "url": "/docs/reshade/understanding_reshade_depth_buffer.html#what-is-reshades-depth-buffer",
     
     "relUrl": "/docs/reshade/understanding_reshade_depth_buffer.html#what-is-reshades-depth-buffer"
-  },"28": {
+  },"30": {
     "doc": "Understanding ReShade's Depth Buffer",
     "title": "Understanding ReShade's Depth Buffer",
     "content": " ",
     "url": "/docs/reshade/understanding_reshade_depth_buffer.html",
     
     "relUrl": "/docs/reshade/understanding_reshade_depth_buffer.html"
-  },"29": {
+  },"31": {
     "doc": "Understanding ReShade's UI",
     "title": "Understanding ReShade’s UI",
     "content": "So, after getting ReShade installed, the next step is to run the game and see if the ReShade popup appears on the top of the screen, if it does, congratulations! You have 70% of the work done. If not, try fiddling with the renderer settings again. A crucial step to start playing around with ReShade though, is getting acquainted with the UI, for this, press “HOME” on the Keyboard (or POS1 in a few other languages, this changes per Keyboard or locale) you can then follow the in-screen tutorial. (Make sure to follow it if you are a first-time user, reading does pay-off) However, if you skipped through it (pressed “Skip Tutorial” instead of “Continue”), we will assist you on what each part and button does. Make sure to follow and learn this properly so you have to worry less when our adventure with the Depth Buffer starts. ",
     "url": "/docs/reshade/understanding_reshade_ui.html#understanding-reshades-ui",
     
     "relUrl": "/docs/reshade/understanding_reshade_ui.html#understanding-reshades-ui"
-  },"30": {
+  },"32": {
     "doc": "Understanding ReShade's UI",
     "title": "Understanding the Home Tab",
     "content": "Current Preset . The highlighted portion in the image above shows what preset is currently active within ReShade. Presets are saved in the game directory by default, and the default name for them is always ReShadePreset.ini, you can create a new one by clicking on the “+” button, save it by clicking on the Diskette-icon button and switch between them using the arrow buttons. ReShade tries to automatically detect which ini is a Preset, so you won’t have problems with ReShade picking up the wrong ini as a preset. Effect List . The highlighted portion in the image above shows the effect list within ReShade’s “Home” tab. This portion of the “Home” tab is where all of your installed shaders live within the ReShade UI. Your list may be bigger or smaller depending on the effects the preset you downloaded uses, or the effect packs you installed back at the ReShade setup. Global Pre-processor Definitions . The highlighted portion ion the image above shows the “Edit Global Preprocessor Definitions” button within the ReShade “Home” tab. Pre-Processor definitions are “flags” or toggles which define how an effect should behave before it gets loaded. It’s often used to change various shader behaviors or compatibility. This is important. Once you click it, it should open a small window: . The first tab shows which defines are “Global”, which means that they will get applied to every preset. By default, ReShade leaves those configured to its own effects, but you might add, edit or remove by clicking on the “Plus” and “Minus” signs. Make sure to always know the name of the pre-processor definition you need to change, and its min and max values. Shaders usually have those in comments. So, you will need to open the FX files with a advanced text editor to help with reading (Such as Notepad++). The second tab shows which defines are valid for the “Current Preset”, which means they will change or reset to what is the shader’s default or the Global value for them when the preset is changed. This is useful if different presets use different pre-load values. With a default ReShade preset, this tab will be blank . Effect Parameters . The image above shows you the location of shader’s effect parameters. When you enable a shader within ReShade, its options and parameters will appear there. Changes made here are changed in real-time, so you can always have the window a bit to the side to see what exactly is being altered on the image. Reload Button . This button, highlighted within the image above, forces ReShade to re-read the files on the Shaders and Textures folder, and add / include newly installed effects there, without having to quit and open the game again. This is also useful to see changes made to the shader code while programming. Performance Mode . This setting, highlighted within the image shown above, optimizes the compilation functions and how ReShade runs in the memory, making it less impactful on performance. Note that this will prevent edits to be made on the shaders and that some effects might not work well with it. In this case, you should always let the shader author know if there are any issues with the Performance Mode. ",
     "url": "/docs/reshade/understanding_reshade_ui.html#understanding-the-home-tab",
     
     "relUrl": "/docs/reshade/understanding_reshade_ui.html#understanding-the-home-tab"
-  },"31": {
+  },"33": {
     "doc": "Understanding ReShade's UI",
     "title": "Understanding Other ReShade Tabs",
     "content": "Here, you can choose what window you are viewing, this is very important because each window has its own set of options, we will guide you through them in the next few steps. By default, you will always start at “HOME” , but there are other tabs with their own set of options, those being: . Addons Tab . This tab, highlighted in the image above, controls how each installed ReShade “Addon” works, by default, only “Generic Depth” is installed. Which is responsible on getting the depth buffer and selecting the correct one, we’ll look deeper into it later, for now, just know that this exists and can be used to control how each ReShade extension behaves. Settings Tab . This tab, highlighted in the image above, controls various important ReShade options, such as where the directories for Shaders are, the keys to open the menu, change between effects, FPS meter options , window theme and etcetera. Make sure to read through them all and experiment to make yourself more comfortable with the UI. Statistics Tab . This tab, highlighted in the image above, shows performance metrics, what the effects are using, how much they are consuming, how they are looking on each pass, how they work… Usually, you won’t need to look there much unless you are developing or measuring a shader’s performance. Log Tab . This tab, highlighted in the image above, shows ReShade’s “Log”, which writes how loading the shaders and ReShade itself went. If there are any errors or problems with a shader, they will be shown here, with YELLOW being a warning (incase an effect loaded, but certain functions and code could be better written or was changed during load), and RED being a error (Critical, prevented an effect from loading, usually followed by a description of the error), this is a very important tool for developers when they make their shaders, so if you see anything wrong, and you think a error or warning might be relevant, make sure to send them the resulting text, or sending the log file (all LOGs get saved on the game directory as ReShade.log, please note that the logs will be cleaned up once you leave and start the game again, so make sure to leave the game, send the log, and then send again to prevent loss of information). About Tab . This tab, highlighted in the image above, shows the credits of who worked / works in the development of ReShade, licenses, other code it used for its development and such. Mostly a formality. ",
     "url": "/docs/reshade/understanding_reshade_ui.html#understanding-other-reshade-tabs",
     
     "relUrl": "/docs/reshade/understanding_reshade_ui.html#understanding-other-reshade-tabs"
-  },"32": {
+  },"34": {
     "doc": "Understanding ReShade's UI",
     "title": "Understanding ReShade's UI",
     "content": " ",
     "url": "/docs/reshade/understanding_reshade_ui.html",
     
     "relUrl": "/docs/reshade/understanding_reshade_ui.html"
-  },"33": {
+  },"35": {
     "doc": "Using ReShade with an API Wrapper",
     "title": "Using ReShade with a Rendering API Wrapper",
     "content": ". ",
     "url": "/docs/special_other/using_reshade_with_an_api_wrapper.html#using-reshade-with-a-rendering-api-wrapper",
     
     "relUrl": "/docs/special_other/using_reshade_with_an_api_wrapper.html#using-reshade-with-a-rendering-api-wrapper"
-  },"34": {
+  },"36": {
     "doc": "Using ReShade with an API Wrapper",
     "title": "What is an an Rendering API Wrapper?",
     "content": "A rendering API wrapper, is simply a tool used in various froms in order to “wrap” one rendering API to another. The most common form of this is wrapping older APIs such as DirectX 9 to newer APIs like Vulkan. This can provide all sorts of new things for users, such as allowing their ReShade to properly compile shaders, and sometimes implementing performance enhancements for older games. ",
     "url": "/docs/special_other/using_reshade_with_an_api_wrapper.html#what-is-an-an-rendering-api-wrapper",
     
     "relUrl": "/docs/special_other/using_reshade_with_an_api_wrapper.html#what-is-an-an-rendering-api-wrapper"
-  },"35": {
+  },"37": {
     "doc": "Using ReShade with an API Wrapper",
     "title": "Installing DXVK for use with ReShade",
     "content": "Step 1 . Grab the latest release of DXVK from https://github.com/doitsujin/dxvk/releases . Step 2 . Navigate to your game folder - For this instance, I am using ULTRAKILL here as an example. Step 3 . Use PCGamingWiki for reference of what rendering API and architecture that your game is: . PCGamingWiki showing the game’s original API . PCGamingWiki showing the game’s original bit architecture . Step 4 . | Open the DXVK archive dxvk-2.2.tar.gz (You will need a archive opener like 7zip!) . | Navigate to the into the dxvk-2.2.tar file, then into the dxvk-2.2 folder. You will then see two folders, one labeled x64 and another labeled x32. The folder you pick here is based off of the information related to architecture on PCGamingWiki in step 3! . | . Step 5 . Navigate into the architecture folder that relates to your game, and you will see several files - each of these files relates to the rendering api that you found on PCGamingWiki. File Names and Associated Architectures. | dxgi.dll - DX11/DX12 | d3d11.dll - DX11 | d3d10core.dll - DX10 | d3d9.dll - DX9 | . Step 6 . Drag the file that you need into the directory that your game is located in - the file needs to be in the same location as the executable! . Step 7 . Reinstall ReShade using the Vulkan API for your game, and test! . If ReShade does not appear when you have installed it as Vulkan, you have either chosen the wrong application, or have applied the wrong bit architecture/dll file to the game’s folder. ",
     "url": "/docs/special_other/using_reshade_with_an_api_wrapper.html#installing-dxvk-for-use-with-reshade",
     
     "relUrl": "/docs/special_other/using_reshade_with_an_api_wrapper.html#installing-dxvk-for-use-with-reshade"
-  },"36": {
+  },"38": {
     "doc": "Using ReShade with an API Wrapper",
     "title": "Using ReShade with an API Wrapper",
     "content": " ",

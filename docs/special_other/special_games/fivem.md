@@ -21,7 +21,7 @@ grand_parent: Special & Others
 
 ----------------
 
-## Installing ReShade to FiveM:
+# Installing ReShade to FiveM:
 While FiveM is a modification platform for Grand Theft Auto V, it requires it's own special proceedures in order to inject ReShade into FiveM itself.
 
 Unfortunately, this is the way that the developers of FiveM have set up their client, and there is nothing that we can realistically can do about it.
@@ -30,7 +30,7 @@ In order to install ReShade properly to FiveM, you can proceed with the followin
 
 ----------------
 
-#### Step 1.
+### Step 1.
 Start by installing ReShade to GTAV.<br>
 You will likely want the addon-support build of ReShade from the [ReShade website](https://reshade.me).
 
@@ -40,7 +40,7 @@ Installing ReShade to the launcher will give you the wrong binary, and won't all
 
 ----------------
 
-#### Step 2.
+### Step 2.
 Once ReShade is installed to GTAV, navigate to your GTAV folder.<br>
 You should see:
 
@@ -55,7 +55,7 @@ Do not close this folder!
 
 ----------------
 
-#### Step 3.
+### Step 3.
 Navigate to the location of your FiveM install.
 
 {: .note}
@@ -65,7 +65,7 @@ The location of your install of FiveM **might** slightly differ.
 
 ----------------
 
-#### Step 4.
+### Step 4.
 **Create** a `plugins` folder in the `FiveM Application Data` folder.
 
 {: note}
@@ -74,7 +74,7 @@ Skip if this step is already there
 
 ----------------
 
-#### Step 5.
+### Step 5.
 Cut or move the ReShade files and singular folder from your Grand Theft Auto V game folder, into your FiveM `plugins` folder.
 
 These files and singular folder are: 
@@ -87,7 +87,7 @@ Do not copy and paste these files over, as it will cause issues.
 
 ----------------
 
-#### Step 6.
+### Step 6.
 Boot up FiveM up and check the console for errors using the F8 key.
 
 If the ReShade installer cannot detect the install location of FiveM, or your ReShade ID has changed, you can get the error:
