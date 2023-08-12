@@ -29,8 +29,11 @@ Windows 11 22H2 22621.2070
 
 # Editing Markdown
 * Just The Docs uses a mixture of Kramdown and Markdown in order to allow users to better create documentation/guides.
+
     Above I have listed the Kramdown site, which holds a ton of information on Kramdown's syntax
+
     However, there is also more provided on the Just The Docs documentation website as well.
+    
 1. Simply fork the :dev: branch of the GitHub repository using the GitHub website, and then downlolad GitHub Desktop (as it makes things easier in the long run)
 2. In GitHub Desktop, Clone your forked repository, and make changes to the location that is local to your machine.
 3. View the changes by building the site using the building locally guide above.
