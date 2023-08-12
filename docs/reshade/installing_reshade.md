@@ -34,7 +34,7 @@ Do not download ReShade Installers or DLLs from unofficial sources outside of th
 ## Explaining the ReShade Builds
 Once you are at the bottom of the site, you will be presented with two variations of the ReShade Installer.
 
-There are huge variations between these builds, and it is very important to understand the differences between the two.
+There are large differences between these builds, and it is very important to understand what each build has to offer.
 
 ### Standard ReShade Build (Download ReShade x.x.x)
 <div class="figure">
