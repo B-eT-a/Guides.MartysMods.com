@@ -6,55 +6,72 @@ parent: ReShade Guides
 ---
 
 # Installing ReShade
-
-----------------
-
-## What is ReShade?
 <div>
-<img src="./images/installing_reshade/rs_gradiant.png" width="125" height="125"/>
+<img src="./images/installing_reshade/rs_gradiant.png" width="125" height="125"/><br>
 </div>
-ReShade is a shader-injection tool for all games and applications under the DirectX 9-12, OpenGL, and Vulkan graphics APIs. Similar to ENB, DXVK, or ASILoader, ReShade injects into your game in order to allow for unlimited creativity from its users so they can create the image that they desire.
 
-This guide has been written in order to help guide you through the install process for ReShade so that you can utilize it in all of your games.
+ReShade is a shader-injection tool for all games and applications under the DirectX 9-12, OpenGL, and Vulkan graphics rendering APIs.
 
+Similar to ENB, DXVK, or ASILoader, ReShade injects into your game in order to allow for unlimited creativity from its users so they can create the image that they desire.
+
+This guide has been written in order to help guide you through the install process for ReShade so that you can utilize it in all of your games, and progress your knowledge for the fundamentals and advanced features of ReShade!
 
 ----------------
+
 ## Downloading the ReShade Installer
-First, navigate to the homepage for [ReShade](https://reshade.me/#download).  
-Once there, you will want to scroll all the way down to the available versions to download.
+
+To start, download the latest version of ReShade by navigating to the [homepage for ReShade](https://reshade.me/#download).<br>Once there, you need to scroll all the way down to the latest available versions to download.<br>There will be two builds of ReShade that are avaliable for the latest install of ReShade.
+
+{: .warning}
+Do not download ReShade Installers or DLLs from unofficial sources outside of the official ReShade website: [https://reshade.me](https://reshade.me)<br>Downloading and utilizing unofficial binaries can lead to various issues, including viruses.<br>**Be Cautious!**
+
 <div class="figure">
-<img src="./images/installing_reshade/rs_scroll.gif" height="600px"/>
+<img src="./images/installing_reshade/rs_scroll.gif" height="500px"/>
 </div>
 
 ----------------
 
-## Versions
-Two options will be available for you to click at the bottom of the [ReShade website](https://reshade.me/#download). If the versions do not match, that is okay, as of August 2023 the versions sit at 5.9.0 – however later down the line, there will likely be newer versions for you to use. Keep in mind that you always want to use the latest version of ReShade!
+## Explaining the ReShade Builds
+Once you are at the bottom of the site, you will be presented with two variations of the ReShade Installer.
 
-### First Option (Download ReShade x.x.x)
+There are huge variations between these builds, and it is very important to understand the differences between the two.
+
+### Standard ReShade Build (Download ReShade x.x.x)
 <div class="figure">
 <img src="./images/installing_reshade/rs_standard_button.png" class="autosize"/>
 </div>
-The first option is ReShade's standard version. It is specifically to be used in games that endorse online play and have implemented anti-cheat or anti-tamper systems. These security measures, prevalent in many MMO and modern FPS games, help maintain an even playing field by preventing it's players from cheating. Some game developers have even created sophisticated driver-level anti-cheat systems to deploy in popular games.
+The first build option for you to choose is ReShade's standard build. 
 
-This version is particularly suited for gamers who frequent multiplayer games or games fortified with such security measures. Some online games, including Dead by Daylight, PlayerUnknown's Battlegrounds, and Apex Legends, permit this version of ReShade to inject while having an anti-cheat system - this is due to ReShade cutting access to the add-ons, when an online connection in the game is present. This add-on functionality is what powers depth-based shaders like iMMERSE MXAO, iMMERSE Pro RTGI, and CinematicDOF - and without the add-on functionality, these shaders do not work properly.
+This build is specificially to be used in games that endorse online play and have implemented anti-cheat or anti-tamper systems. These security measures, prevalent in many MMO and modern FPS games, help maintain an even playing field by preventing it's players from cheating. Some game developers have even created sophisticated driver-level anti-cheat systems to deploy in popular games.The Standard Build of ReShade is suited for gamers who frequent multiplayer games or games fortified with such security measures. 
+
+Some online games, including Dead by Daylight, PlayerUnknown's Battlegrounds, and Apex Legends, permit this build of ReShade to inject while having an anti-cheat system - this is due to ReShade cutting access to the add-ons, when an online connection in the game is present. 
+
+This add-on functionality is what powers depth-based shaders like iMMERSE MXAO, iMMERSE Pro RTGI, and CinematicDOF - and without the add-on functionality, these shaders do not work properly.
 
 Although this provides a secure gaming experience, it can easily restrict the capabilities of shaders and hamper the full extent of users attainable visual enhancements.
 
-### Second Option (Download ReShade x.x.x with full add-on support)
+----------------
+
+### Full Add-On Support ReShade Build (Download ReShade x.x.x with full add-on support)
 <div class="figure">
 <img src="./images/installing_reshade/rs_addon_button.png" class="autosize"/>
 </div>
-The second option is ReShade's add-on support version. It is designed primarily for single player games or games that don't use anti-cheat mechanisms. While it can be used in older games with less robust anti-cheats (for example: older Valve games using VAC or older idTech shooters using PunkBuster), you can still be putting yourself at risk of a ban. Therefore, we advise users to be careful and only inject this version in known games that do not list bans for ReShade or other graphics injections.
+The second build option for you to choose is ReShade's full add-on support version. 
 
-The largest difference in this version is ReShade's add-on feature. Add-ons are essentially ReShade extensions that developers can code to maximize ReShade's potential. For instance, they can detect buffers in different ways or utilize various effects that tie deeply into your game. Addons other than Generic Depth are allowed in this version, but not the standard build of ReShade.
+This build was designed primarily for single player games or games that don't use anti-cheat mechanisms. 
+
+While it can be used in older games with less robust anti-cheats (for example: older Valve games using VAC or older idTech shooters using PunkBuster), you can still be putting yourself at risk of a ban. Therefore, we advise users to **be careful** and only inject this version in known games that do not list bans for ReShade or other graphics injections.
+
+The largest difference in this version is the ability to use ReShade's add-on features. This version allows for ReShade users to utilize Add-ons (outside of Generic Depth) developed by community members. This version also allows you to utilize these Add-ons within a game that has a network connection. 
+
+Add-ons are ReShade extensions that developers can code to maximize ReShade's potential. For reference, they can detect buffers in different ways or utilize various effects that tie deeply into your game. Addons other than Generic Depth are allowed in this version, but not the standard build of ReShade.
 
 {: .warning }
 The majority of the effects and add-ons are harmless, but if you deliberately use them for unfair advantages in games, you should expect a ban. There won't be any right to appeal since this is a clear violation - as ReShade modifies the game during runtime.
 
 ----------------
 
-## Installing with the ReShade Installer
+## Installing ReShade with the ReShade Installer
 Once you have downloaded the appropriate version of ReShade, you'll need to run the downloaded executable. Once launched, you will be greeted with the ReShade installer.
 
 Initially, the installer will prompt you to select a game or application that you want to inject ReShade to. It's recommended to explore the additional options offered by the installer!
