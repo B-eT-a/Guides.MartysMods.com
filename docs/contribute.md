@@ -22,9 +22,12 @@ Pull requests to :main: will be AUTOMATICALLY denied.
 I am more than happy to answer any questions that you may have!<br>
 Contributers will also be noted with credits towards the site!
 
-We're ultimately wanting this site to become the ReShade communities top reference for guides and tutorials.<br>
-However, this means that part of the community will have to contribute in order to make it the best that it possibly can be!<br>
-We know creating guides takes time and effort, and we do not want this to feel like a job.<br>
+We're ultimately wanting this site to become the ReShade communities top reference for guides and tutorials.
+
+However, this means that part of the community will have to contribute in order to make it the best that it possibly can be!
+
+We know creating guides takes time and effort, and we do not want this to feel like a job.
+
 So keep in mind that no one is required to create anything for the ReShade community, but if you can part with some of your time we'd love to have you helping out!
 
 ----------------
