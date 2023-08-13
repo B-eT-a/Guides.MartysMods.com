@@ -7,4 +7,4 @@ has_toc: true
 ---
 
 # Special & Others
-For everything ReShade "Related"
+Guides for everything ReShade "related," but not inherently ReShade focused.
