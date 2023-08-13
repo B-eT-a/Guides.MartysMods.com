@@ -1,10 +1,3 @@
----
-title: Limiting your Framerate
-layout: page
-nav_order: 4
-parent: Special & Others
----
-
 # Limiting your game's framerate.
 
 While having the highest FPS can be seen as a good thing, it often comes with the side effect of not allowing shaders breathing room in ReShade.
